@@ -7,13 +7,13 @@ import 'package:get/get.dart';
 
 Widget textFieldSignUp(
   TextEditingController controlleremail,
-    TextEditingController controllerpassword,
-    TextEditingController controllerconfermpassword,
+  TextEditingController controllerpassword,
+  TextEditingController controllerconfermpassword,
 ) {
   return Column(
     children: [
       Container(
-        margin: EdgeInsets.only(top: Get.height * 0.05 , right: 20 , left: 20   ),
+        margin: EdgeInsets.only(top: Get.height * 0.01, right: 20, left: 20),
         child: TextField(
           controller: controlleremail,
           decoration: InputDecoration(
@@ -53,7 +53,7 @@ Widget textFieldSignUp(
         ),
       ),
       Container(
-        margin: EdgeInsets.only(top: Get.height * 0.04 , right: 20 , left: 20  ),
+        margin: EdgeInsets.only(top: Get.height * 0.04, right: 20, left: 20),
         child: TextField(
           controller: controllerpassword,
           decoration: InputDecoration(
@@ -64,7 +64,7 @@ Widget textFieldSignUp(
                 borderRadius: BorderRadius.circular(50.0),
               ),
               suffixIconConstraints:
-              BoxConstraints(minHeight: 24, minWidth: 24),
+                  BoxConstraints(minHeight: 24, minWidth: 24),
               prefixIcon: Icon(
                 Icons.add,
                 color: ColorManagement.colorWhite,
@@ -93,7 +93,7 @@ Widget textFieldSignUp(
         ),
       ),
       Container(
-        margin: EdgeInsets.only(top: Get.height * 0.04 , right: 20 , left: 20  ),
+        margin: EdgeInsets.only(top: Get.height * 0.04, right: 20, left: 20),
         child: TextField(
           controller: controllerconfermpassword,
           decoration: InputDecoration(
@@ -104,7 +104,7 @@ Widget textFieldSignUp(
                 borderRadius: BorderRadius.circular(50.0),
               ),
               suffixIconConstraints:
-              BoxConstraints(minHeight: 24, minWidth: 24),
+                  BoxConstraints(minHeight: 24, minWidth: 24),
               prefixIcon: Icon(
                 Icons.add,
                 color: ColorManagement.colorWhite,
