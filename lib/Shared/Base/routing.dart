@@ -16,7 +16,7 @@ class BaseRoute {
   static List<GetPage> pages() => [
         _getPage(
           name: PageTo.home,
-          page: const HomePage(),
+          page: HomePage(),
           binding: HomeBinding(),
         ),
         // _getPage(

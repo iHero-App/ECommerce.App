@@ -1,11 +1,8 @@
 
+// ignore_for_file: sort_child_properties_last
+
 import 'package:ecommerce/Models/social_media_icon.dart';
 import 'package:ecommerce/Shared/Resource/color_mangment.dart';
-import 'package:ecommerce/Shared/Resource/size_mangment.dart';
-import 'package:ecommerce/Shared/Resource/view_mangment.dart';
-import 'package:ecommerce/Shared/components/botton.dart';
-import 'package:ecommerce/Shared/components/text_widget.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';

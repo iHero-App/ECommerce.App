@@ -1,16 +1,13 @@
 import 'package:ecommerce/Shared/Base/routing.dart';
 import 'package:ecommerce/Shared/Resource/color_mangment.dart';
 import 'package:ecommerce/Shared/Resource/size_mangment.dart';
-import 'package:ecommerce/Shared/Resource/view_mangment.dart';
-import 'package:ecommerce/Shared/components/botton.dart';
 import 'package:ecommerce/Shared/components/text_widget.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 Widget rowForgetAndCheck (){
   return Padding(
-      padding:EdgeInsets.only(top: 15 , right: 20 , left: 25  )  ,
+      padding:const EdgeInsets.only(top: 15 , right: 20 , left: 25  )  ,
   child: Row(
     children: [
     Checkbox(
@@ -19,7 +16,7 @@ Widget rowForgetAndCheck (){
       },
     ),
     TextWidget(Title: "Remember me" , colorText: ColorManagement.colorGreyLight ,FontSize: FontSize.s14 ),
-    Spacer(),
+    const Spacer(),
     InkWell(
         onTap: (){
           Get.toNamed(PageTo.forgotPassword);

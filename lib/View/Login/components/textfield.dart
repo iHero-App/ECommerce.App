@@ -26,7 +26,7 @@ Widget textFieldLogin(
                   BoxConstraints(minHeight: 24, minWidth: 24),
               prefixIcon: Icon(
                 Icons.add,
-                color: ColorManagement.colorWhite,
+                color: ColorManagement.colorTrans,
               ),
               suffixIcon: Container(
                 padding: EdgeInsets.only(right: 30),
@@ -66,7 +66,7 @@ Widget textFieldLogin(
               BoxConstraints(minHeight: 24, minWidth: 24),
               prefixIcon: Icon(
                 Icons.add,
-                color: ColorManagement.colorWhite,
+                color: ColorManagement.colorTrans,
               ),
               suffixIcon: Container(
                 padding: EdgeInsets.only(right: 30),

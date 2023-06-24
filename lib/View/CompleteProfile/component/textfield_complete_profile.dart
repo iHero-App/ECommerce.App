@@ -1,6 +1,5 @@
 import 'package:ecommerce/Shared/Resource/color_mangment.dart';
 import 'package:ecommerce/Shared/Resource/images_mangment.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
@@ -25,13 +24,13 @@ Widget textFieldCompleteProfile(
                 borderRadius: BorderRadius.circular(50.0),
               ),
               suffixIconConstraints:
-                  BoxConstraints(minHeight: 24, minWidth: 24),
+                  const BoxConstraints(minHeight: 24, minWidth: 24),
               prefixIcon: Icon(
                 Icons.add,
                 color: ColorManagement.colorWhite,
               ),
               suffixIcon: Container(
-                padding: EdgeInsets.only(right: 30),
+                padding: const EdgeInsets.only(right: 30),
                 constraints: BoxConstraints(
                   maxHeight: 55.0,
                   maxWidth: 55.0,

@@ -1,14 +1,12 @@
-import 'package:ecommerce/Shared/Base/routing.dart';
+// ignore_for_file: must_be_immutable
+
 import 'package:ecommerce/Shared/Resource/color_mangment.dart';
 import 'package:ecommerce/Shared/Resource/size_mangment.dart';
 import 'package:ecommerce/Shared/Resource/view_mangment.dart';
 import 'package:ecommerce/Shared/components/botton.dart';
 import 'package:ecommerce/Shared/components/text_widget.dart';
-import 'package:ecommerce/View/SignUp/components/textfield_signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../Login/components/row_forgetandcheck.dart';
-import '../Login/components/row_social_media.dart';
 import 'component/textfield_complete_profile.dart';
 
 class CompleteProfilePage extends StatelessWidget {
@@ -47,7 +45,7 @@ class CompleteProfilePage extends StatelessWidget {
             Center(
               child: SizedBox(
                   height: Get.height * 0.10,
-                  width: Get.width * 0.7,
+                  width: Get.width * 0.9,
                   child: TextWidget(
                       maxLines: 2,
                       Title:
@@ -78,7 +76,7 @@ class CompleteProfilePage extends StatelessWidget {
               padding: EdgeInsets.only(
                   bottom: Get.width * 0.07, top: Get.height * 0.02),
               child: SizedBox(
-                  width: Get.width * 0.7,
+                  width: Get.width * 0.9,
                   child: TextWidget(
                       Title:
                           "By continuing you confirm that you agree with our Team and Condition",

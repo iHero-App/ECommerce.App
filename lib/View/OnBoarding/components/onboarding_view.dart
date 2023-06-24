@@ -33,7 +33,7 @@ class OnBoardingView extends StatelessWidget {
             //       FontSize: FontSize.s24),
             // ),
             SizedBox(
-              width: Get.width * 0.60,
+              width: Get.width * 0.80,
               child: TextWidget(
                   maxLines: 3,
                   Title: sliderObject!.subtitle,
@@ -44,7 +44,7 @@ class OnBoardingView extends StatelessWidget {
               padding:  EdgeInsets.only(top: Get.height * 0.041),
               child: Image.asset(
                 sliderObject!.image,
-                height: Get.height * 0.5,
+                height: Get.height * 0.4,
                 width: Get.width,
               ),
             ),

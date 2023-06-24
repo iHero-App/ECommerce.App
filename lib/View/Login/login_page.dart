@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:ecommerce/Shared/Base/routing.dart';
 import 'package:ecommerce/Shared/Resource/color_mangment.dart';
 import 'package:ecommerce/Shared/Resource/size_mangment.dart';
@@ -41,7 +43,7 @@ class LoginPage extends StatelessWidget {
             Center(
               child: SizedBox(
                   height: Get.height * 0.10,
-                  width: Get.width * 0.7,
+                  width: Get.width * 0.9 ,
                   child: TextWidget(
                       maxLines: 2,
                       Title:
@@ -66,18 +68,20 @@ class LoginPage extends StatelessWidget {
                   colorbotton: ColorManagement.colorPrimary,
                   colortext: ColorManagement.colorWhite,
                   title: "Continue",
-                  onTap: () {}),
+                  onTap: () {
+                    Get.toNamed(PageTo.home);
+                  }),
             ),
             rowSocialMedia(),
             Padding(
-              padding: EdgeInsets.only(bottom: Get.width * 0.07),
+              padding: EdgeInsets.only(top: PaddingEdit.p24, bottom: Get.width * 0.07),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   TextWidget(
                       Title: "Don't have on account? ",
                       colorText: ColorManagement.colorGreyLight,
-                      FontSize: FontSize.s18),
+                      FontSize: FontSize.s16),
                   InkWell(
                       onTap: () {
                         Get.toNamed(PageTo.signup);
@@ -85,7 +89,7 @@ class LoginPage extends StatelessWidget {
                       child: TextWidget(
                           Title: "Sign Up",
                           colorText: ColorManagement.colorPrimary,
-                          FontSize: FontSize.s20)),
+                          FontSize: FontSize.s16)),
                 ],
               ),
             )
