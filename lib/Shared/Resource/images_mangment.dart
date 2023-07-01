@@ -17,6 +17,11 @@ class BaseImage {
   static var ImagePopularProduct3 = "assets/images/ImagePopularProduct3.png";
   static var wirelessheadset = "assets/images/wirelessheadset.png";
   static var tshirt = "assets/images/tshirt.png";
+  static var ps4_console_white_1 = "assets/images/ps4_console_white_1.png";
+  static var ps4_console_white_2 = "assets/images/ps4_console_white_2.png";
+  static var ps4_console_white_3 = "assets/images/ps4_console_white_3.png";
+  static var ps4_console_white_4 = "assets/images/ps4_console_white_4.png";
+
 
 
 

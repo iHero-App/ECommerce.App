@@ -3,8 +3,7 @@ import 'package:flutter/material.dart';
 
 ThemeData applicationTheme(BuildContext context) => ThemeData(
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-        backgroundColor: Colors.transparent,
-      ),
+          backgroundColor: Colors.transparent),
       fontFamily: 'Muli',
       canvasColor: ColorManagement.colorWhiteDark,
       unselectedWidgetColor: ColorManagement.colorGreyLight,
