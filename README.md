@@ -1,5 +1,23 @@
-# ecommerce
- Orange_Course
+# E-Commerce
+
+Project to Orange Flutter Cource
+
+![PicLogo](https://github.com/mohmmadabdr/ecommerce/assets/99823929/23e16494-4f5f-4076-a36d-331496ba1b28)
+
+## Installation
+
+Install E- Commerce with npm
+
+```bash
+  git clone
+  flutter pub get
+  flutter run
+```
+    
+
+
+## Screenshots
+
 ![Screenshot_2023-06-25-01-25-20-769_com example ecommerce](https://github.com/mohmmadabdr/ecommerce/assets/99823929/8b18cffd-0c70-4b9a-89c0-626266125778)
 ![Screenshot_2023-06-25-01-25-25-943_com example ecommerce](https://github.com/mohmmadabdr/ecommerce/assets/99823929/ef8a2af2-4acc-4ac9-b938-5916f25d29a2)
 ![Screenshot_2023-06-25-01-25-30-731_com example ecommerce](https://github.com/mohmmadabdr/ecommerce/assets/99823929/f6091674-7609-4b1f-bb5a-b189437d769e)
